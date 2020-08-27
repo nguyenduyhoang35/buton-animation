@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./reset.min.css" />
+    <link rel="stylesheet" href="./inter.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body translate="no">
+    <button
+      class="truck-button animation done"
+      style="
+        --truck-y-n: -25;
+        --truck-y: 1;
+        --box-o: 1;
+        --box-s: 1;
+        --bx: 50;
+        --hx: -5;
+        --progress: 1;
+      "
+    >
+      <span class="default">Complete Order</span>
+      <span class="success">
+        Order
+        <!-- <svg viewBox="0 0 12 10">
+          <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+        </svg> -->
+      </span>
+      <div
+        class="truck"
+        style="transform: translate3d(96px, -12px, -25px) rotateX(90deg)"
+      >
+        <div class="wheel"></div>
+        <div class="back"></div>
+        <div class="front"></div>
+        <div class="box" style="transform: scale(0.8997, 0.8997)"></div>
+      </div>
+    </button>
+    <script src="./stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+    <script src="./dist/gsap.min.js"></script>
+    <script id="rendered-js" src="./index.js"></script>
+  </body>
+</html>
